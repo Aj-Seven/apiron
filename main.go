@@ -1,10 +1,9 @@
 package main
 
 import (
-	"apiron/cmd"
+	"github.com/aj-seven/apiron/cmd"
 )
 
 func main() {
 	cmd.Execute()
 }
-

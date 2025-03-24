@@ -1,7 +1,7 @@
 package cmd
 
 import (
-	"apiron/internal"
+	"github.com/aj-seven/apiron/internal"
 
 	"github.com/spf13/cobra"
 )

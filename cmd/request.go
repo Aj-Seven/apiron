@@ -1,9 +1,10 @@
 package cmd
 
 import (
-	"apiron/internal"
 	"fmt"
 	"strings"
+
+	"github.com/aj-seven/apiron/internal"
 
 	"github.com/manifoldco/promptui"
 	"github.com/spf13/cobra"

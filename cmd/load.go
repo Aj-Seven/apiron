@@ -1,8 +1,9 @@
 package cmd
 
 import (
-	"apiron/internal"
 	"fmt"
+
+	"github.com/aj-seven/apiron/internal"
 
 	"github.com/spf13/cobra"
 )
@@ -22,4 +23,3 @@ var loadCmd = &cobra.Command{
 		internal.SendRequest(request.URL, request.Method, request.Headers, []byte(request.Body))
 	},
 }
-

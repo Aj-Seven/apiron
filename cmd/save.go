@@ -1,8 +1,9 @@
 package cmd
 
 import (
-	"apiron/internal"
 	"fmt"
+
+	"github.com/aj-seven/apiron/internal"
 
 	"github.com/spf13/cobra"
 )
@@ -34,4 +35,3 @@ func init() {
 	saveCmd.Flags().StringP("headers", "H", "", "Request headers in JSON format")
 	saveCmd.Flags().StringP("body", "b", "", "Request body in JSON format")
 }
-
