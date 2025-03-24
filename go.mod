@@ -1,4 +1,4 @@
-module apiron
+module github.com/aj-seven/apiron
 
 go 1.24.1
 
